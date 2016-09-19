@@ -29,6 +29,9 @@ gem 'cancancan'
 
 gem 'carrierwave'
 
+# Use device gem
+  gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -53,6 +56,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
+  # Use pry gem
   gem 'pry'
+
 end
 
