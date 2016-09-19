@@ -29,6 +29,9 @@ gem 'cancancan'
 
 gem 'carrierwave'
 
+# Use device gem
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -41,9 +44,12 @@ gem 'carrierwave'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'rspec-rails', '~> 3.0'
   gem 'factory_girl_rails'
   gem 'shoulda'
+  gem 'rspec-rails', '~> 3.1.0'
+  gem 'rspec-core', '~> 3.1.7'
+  gem 'rspec-collection_matchers', '~> 1.0.0'
+  gem 'rspec-instafail'
 end
 
 group :development do
@@ -53,6 +59,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
+  # Use pry gem
   gem 'pry'
+
 end
 
