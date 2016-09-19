@@ -1,0 +1,32 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  reconnect: false
+  database: forum_development
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+
+it:
+  adapter: postgresql
+  encoding: unicode
+  reconnect: false
+  database: forum_it
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+
+staging:
+  adapter: postgresql
+  encoding: unicode
+  reconnect: false
+  database: forum_staging
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
