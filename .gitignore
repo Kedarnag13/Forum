@@ -7,9 +7,14 @@
 # Ignore bundler config.
 /.bundle
 
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
+# Ignore files - Needed in dev environment
+config/database.yml
+config/security.yml
+
+db/schema.rb
+
+# For Mac
+*.DS_Store
 
 # Ignore all logfiles and tempfiles.
 /log/*
